@@ -1,0 +1,26 @@
+{
+  "name": "app_quindio",
+  "version": "1.0.0",
+  "description": "App turistica ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon src/index.js"
+  },
+  "keywords": [
+    "App",
+    "turismo",
+    "quindio"
+  ],
+  "author": "juankmaster",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "node-input-validator": "^3.6.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
